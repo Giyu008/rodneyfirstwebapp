@@ -2,8 +2,9 @@ const http = require("http");
 const PORT = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
-  res.write("Hello Cloud!!!");
-  res.write("Welcome my fellow solar boy");
+  res.write("Marc Rodney D. Sacnahon");
+  res.write("BSIT-BA 4101");
+  res.write("Just Keep Moving Forward");
   res.end();
 });
 
